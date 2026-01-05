@@ -1,0 +1,10 @@
+^C:\USERS\P\PROJECTS\OPENGL-MODEL-LOADING\BUILD\CMAKEFILES\5D23F91764CF505733DD99C873435ACB\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/p/Projects/opengl-model-loading -BC:/Users/p/Projects/opengl-model-loading/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/p/Projects/opengl-model-loading/build/gloom.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
